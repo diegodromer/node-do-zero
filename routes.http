@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-eg30.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,25 +9,25 @@ Content-Type: application/json
 
 ### todos
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-eg30.onrender.com/videos
 
 
 ### com busca
 
-GET http://localhost:3333/videos?search=node
+GET https://node-do-zero-eg30.onrender.com/videos?search=node
 
 
 ###
 
-PUT http://localhost:3333/videos/6a6a61d1-ad63-4a65-868c-68e322d9bc82
+PUT https://node-do-zero-eg30.onrender.com/videos/ec55fbf8-d953-4bf0-8893-25a2c8b9532f
 Content-Type: application/json
 
 {    
-    "title": "Video node",
+    "title": "Video 2",
     "description": "Esse é o video 01",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/6a6a61d1-ad63-4a65-868c-68e322d9bc82
+DELETE https://node-do-zero-eg30.onrender.com/videos/ec55fbf8-d953-4bf0-8893-25a2c8b9532f
